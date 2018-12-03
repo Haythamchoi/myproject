@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: gray;
 }
 
 .navbar-haytham-brand img {
@@ -14,12 +15,12 @@
 }
 
 .navbar-haytham-link {
-  color: #616668;
+  color: white;
   font-size: 14px;
 }
 
 .navbar-haytham-link:hover {
-  color: #da552f;
+  color: Yellow;
   text-decoration: none;
 }
 
@@ -28,9 +29,10 @@
   grid-template-rows: 100%;
   justify-content: center;
   font-size: 30px;
-  color: gray;
+  color: black;
   margin: 50px;
   padding: 10px;
+  font-style: italic;
 }
 
 .dashboard {
@@ -58,4 +60,11 @@
   font-size: 12px;
   color: #616668;
   font-style: italic;
+}
+
+
+
+.dashboard-card.ruffy {
+  background-image: url(images/missile.png);
+  background-size: cover;
 }
