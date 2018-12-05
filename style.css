@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #F3F2F2;
 }
 
 .navbar-haytham-brand img {
@@ -25,12 +25,12 @@
 }
 
 .navbar-haytham-link {
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
 .navbar-haytham-link:hover {
-  color: Yellow;
+  color: green;
   text-decoration: none;
 }
 
@@ -79,5 +79,10 @@
 
 .dashboard-card.kisame {
   background-image: url(./images/concern.png);
+  background-size: cover;
+}
+
+.dashboard-card.konan {
+  background-image: url(./images/zainichi2.png);
   background-size: cover;
 }
