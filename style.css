@@ -72,14 +72,17 @@
   font-style: italic;
 }
 
+
 .dashboard-card.ruffy {
   background-image: url(images/missile.png);
   background-size: cover;
+
 }
 
 .dashboard-card.kisame {
   background-image: url(./images/concern.png);
   background-size: cover;
+
 }
 
 .dashboard-card.konan {
