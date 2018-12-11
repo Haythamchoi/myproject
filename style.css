@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #F3F2F2;
+  background-color: #FEFAB8;
 }
 
 .navbar-haytham-brand img {
@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 
-.navbar-haytham-item{
+.navbar-haytham-item {
   padding: 15px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .navbar-haytham-link:hover {
-  color: green;
+  color: blue;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@
   display: grid;
   grid-template-columns: 400px 1fr 1fr;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 100% 100% 100% 100% 100% 100%;
+  grid-template-rows: 100% 100% 100% 100% 100% 100% 100% 100%;
   height: calc(100vh - 110px);
   margin-top: 80px;
 }
@@ -72,17 +72,25 @@
   font-style: italic;
 }
 
+.dashboard-card-content h2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  color: black;
+}
+
+.dashboard-card-content ul {
+  color:green;
+}
 
 .dashboard-card.ruffy {
   background-image: url(images/missile.png);
   background-size: cover;
-
 }
 
 .dashboard-card.kisame {
   background-image: url(./images/concern.png);
   background-size: cover;
-
 }
 
 .dashboard-card.konan {
@@ -92,5 +100,10 @@
 
 .dashboard-card.itachi {
   background-image: url(./images/zainichi3.png);
+  background-size: cover;
+}
+
+.dashboard-card.hidan {
+  background-image: url(./images/zainichi4.png);
   background-size: cover;
 }
