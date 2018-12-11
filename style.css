@@ -89,3 +89,8 @@
   background-image: url(./images/zainichi2.png);
   background-size: cover;
 }
+
+.dashboard-card.itachi {
+  background-image: url(./images/zainichi3.png);
+  background-size: cover;
+}
