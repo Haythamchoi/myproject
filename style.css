@@ -57,6 +57,7 @@
   height: calc(100vh - 110px);
   margin-top: 80px;
   max-height: 2000px;
+  position: relative;
 }
 
 .dashboard-card {
@@ -72,10 +73,26 @@
   position: relative;
 }
 
+.dashboard-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  background: black;
+  opacity: 0;
+}
+
+.dashboard-link:hover {
+  opacity: 0.1;
+}
+
 .dashboard-card-content {
   font-size: 12px;
   color: #616668;
   font-style: italic;
+  position: absolute;
 }
 
 .dashboard-card-content h2 {
@@ -86,7 +103,7 @@
 }
 
 .dashboard-card-content ul {
-  color:green;
+  color: #CAC9C9
 }
 
 .dashboard-card.ruffy {
@@ -117,4 +134,23 @@
   background-image: url(./images/zainichi4.png);
   background-size: cover;
   background-position: center;
+}
+
+#footer {
+  height: 60px;
+  padding: 30px;
+}
+
+#footer p {
+  font-size: 10px;
+  color: gray;
+}
+
+#footer a {
+  font-size: 13px;
+  color: gray;
+}
+
+#footer a:hover {
+  color: #A9FE9C
 }
